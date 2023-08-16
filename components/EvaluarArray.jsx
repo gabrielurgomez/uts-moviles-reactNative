@@ -4,7 +4,7 @@ import { StyleSheet, Text, View, TextInput, ToastAndroid, Button } from 'react-n
 
 const EvaluarArray = () => {
 
-  let arrInicial = [5, 8, 12, 11, 6, 13, 8, 15, 6, 4, 11, 0];
+  let arrInicial = [5, 8, 12, 11, 6, 13, 8, 15, 6, 4, 11, 0, 8];
   const [arrMayores10, setArrMayores10] = useState([]);
   const [nombre, setNombre] = useState("");
   const [mostrarResultado, setMostrarResultado] = useState(false);
