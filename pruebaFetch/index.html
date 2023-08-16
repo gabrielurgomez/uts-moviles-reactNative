@@ -1,0 +1,11 @@
+<head>
+    <script>
+        const ConsultarClientes = async () => {
+            const rta = await fetch("http://localhost:4000/api/clientes");
+            const clientes = await rta.json();
+            console.log(clientes);
+            //ToastAndroid.show('Se ha consultado los clientes', ToastAndroid.SHORT);
+        }
+        ConsultarClientes();
+    </script>
+</head>
