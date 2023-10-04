@@ -7,8 +7,6 @@ const Calculadora = () => {
   const [numero1, setNumero1] = useState(10);
   const [numero2, setNumero2] = useState(30);
   const [resultado, setResultado] = useState(0);
-  
-  const [mostrarResultado, setMostrarResultado ] = useState(false);
  
   useEffect(() => {
     //ESTO SE EJECUTA UNA SOLA VEZ
@@ -18,7 +16,7 @@ const Calculadora = () => {
   const Sumar = () => {
     let rta = parseInt(numero1) + parseInt(numero2);
     setResultado(rta);
-    setMostrarResultado(true);
+
     ToastAndroid.show('Se ha realizado la suma!', ToastAndroid.SHORT);
   }
 
