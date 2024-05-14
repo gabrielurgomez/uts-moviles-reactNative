@@ -4,8 +4,8 @@ import { StyleSheet, Text, View, TextInput, ToastAndroid, Button } from 'react-n
 
 const Calculadora = () => {
 
-  const [numero1, setNumero1] = useState(10);
-  const [numero2, setNumero2] = useState(30);
+  const [numero1, setNumero1] = useState(0);
+  const [numero2, setNumero2] = useState(0);
   const [resultado, setResultado] = useState(0);
  
   useEffect(() => {
